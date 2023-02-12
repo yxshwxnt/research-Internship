@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Heart Attack Prediction Result</title>
+    <style>
+      /* Add your CSS styles here */
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      h1 {
+        margin-top: 50px;
+        font-size: 36px;
+      }
+      h2 {
+        margin-top: 50px;
+        font-size: 24px;
+      }
+      p {
+        font-size: 18px;
+        margin-top: 20px;
+      }
+      a {
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-top: 20px;
+        background-color: #006bf7;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        text-decoration: none;
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <h1>Heart Attack Prediction Result</h1>
+    <h2>Prediction: {{ prediction }}</h2>
+    <p>{{ prediction_message }}</p> -->
+    <h1>Heart Attack Prediction Result</h1>
+    {% if prediction %}
+      <p>The prediction result is: {{ prediction }}</p>
+    {% else %}
+      <p>You do not have any Heart Disease</p>
+    {% endif %}
+    <a href="/">Go Back</a>
+  </body>
+</html>

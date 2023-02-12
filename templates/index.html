@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heart Attack Prediction</title>
+</head>
+<style>
+  /* Add your CSS styles here */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  h1 {
+    margin-top: 50px;
+    font-size: 36px;
+  }
+  form {
+    margin-top: 50px;
+    display: inline-block;
+    text-align: left;
+  }
+  label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="text"] {
+    font-size: 18px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  input[type="submit"] {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #006bf7;
+    color: white;
+    border-radius: 5px;
+    border: none;
+  }
+</style>
+<body>
+    <h1>Heart Attack Prediction</h1>
+    <form method="post">
+      <table>
+        <tr>
+          <td>Enter BMI:</td>
+          <td><input type="text" name="bmi"></td>
+        </tr>
+        <tr>
+          <td>Do You Smoke?</td>
+          <td><input type="text" name="smoke"></td>
+        </tr>
+        <tr>
+          <td>Do you Drink Alcohol?</td>
+          <td><input type="text" name="alcohol"></td>
+        </tr>
+        <tr>
+          <td>Have You ever go a stroke previosly?</td>
+          <td><input type="text" name="stroke"></td>
+        </tr>
+        <tr>
+          <td>Physical Health</td>
+          <td><input type="text" name="physicalH"></td>
+        </tr>
+        <tr>
+          <td>MentalHealth</td>
+          <td><input type="text" name="mentalH"></td>
+        </tr>
+        <tr>
+          <td>Sex</td>
+          <td><input type="text" name="sex"></td>
+        </tr>
+        <tr>
+          <td>AgeCategory</td>
+          <td><input type="text" name="age"></td>
+        </tr>
+        <tr>
+          <td>Diabetic</td>
+          <td><input type="text" name="diabetic"></td>
+        </tr>
+        <tr>
+          <td>PhysicalActivity</td>
+          <td><input type="text" name="pActivity"></td>
+        </tr>
+        <tr>
+          <td>GenHealth</td>
+          <td><input type="text" name="genHealth"></td>
+        </tr>
+        <tr>
+          <td>SleepTime</td>
+          <td><input type="text" name="sleep"></td>
+        </tr>
+        <tr>
+          <td>Asthma</td>
+          <td><input type="text" name="asthama"></td>
+        </tr>
+        <tr>
+          <td>KidneyDisease</td>
+          <td><input type="text" name="kidney"></td>
+        </tr>
+        <tr>
+          <td>SkinCancer</td>
+          <td><input type="text" name="skin"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" value="Predict"></td>
+        </tr>
+      </table>
+    </form>
+</body>
+</html>
